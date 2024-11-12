@@ -1,0 +1,22 @@
+.finincial-hilights-main-container{
+    width: 100%;
+
+}
+.toggle-tabs{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.toggle-tabs-button{
+    width: 50%;
+    border-radius:0px;
+    border: none;
+    padding: 10px;
+    font-size: 26px;
+    background:rgba(92, 196, 188, 1);
+    cursor: pointer;
+}
+.toggle-tabs-button.active{
+    background:rgb(6, 147, 135);
+}

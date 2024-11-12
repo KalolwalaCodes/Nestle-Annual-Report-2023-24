@@ -1,0 +1,20 @@
+:root {
+    --main-bg-color: #f0f0f0;
+    --main-text-color: #333333;
+    --primary-color: #6200ea;
+    --secondary-color: #03dac6;
+    --font-size-normal: 16px;
+    --font-size-heading-big:28px;
+    --font-size-heading-big-xl:44px;
+    --font-size-heading-small:20px;
+    --font-size-heading-medium:24px;
+    --text-bg-gradient:linear-gradient(to right, #46beb5, #349385);
+    --font-size-large-mobile-heading:30px;
+    --font-size-medium-mobile-heading:28px;
+    --font-size-semi-small-mobile-heading:24px;
+    --font-size-small-mobile-heading:20px;
+    --font-size-paragraph-mobile:16px;
+    --font-size-large-desktop-paragraph:20px;
+    --font-size-laptop-screen-paragraph:18px;
+  }
+  

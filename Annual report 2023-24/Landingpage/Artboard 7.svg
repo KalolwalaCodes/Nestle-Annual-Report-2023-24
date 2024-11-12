@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 60.52 51.52">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-2, .cls-7, .cls-8 {
+        fill: none;
+      }
+
+      .cls-9 {
+        mask: url(#mask);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-7 {
+        stroke: #f47836;
+      }
+
+      .cls-7, .cls-8 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-10 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-12 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-13 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-14 {
+        opacity: .8;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-8 {
+        stroke: #5a4b3b;
+        stroke-width: .25px;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-15 {
+        mask: url(#mask-1);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" width="60.52" height="51.52"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-1115.66" y1="483.48" x2="-1114.66" y2="483.48" gradientTransform="translate(-66661.26 -28887.47) rotate(-180) scale(59.8 -59.8)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <mask id="mask" x="-25.2" y="-29.6" width="110.91" height="110.72" maskUnits="userSpaceOnUse">
+      <rect class="cls-3" x="-9.47" y="-13.3" width="79.46" height="78.13" transform="translate(-9.47 24.78) rotate(-39)"/>
+    </mask>
+    <clipPath id="clippath-1">
+      <rect class="cls-2" width="60.52" height="51.52"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-2" width="60.52" height="51.52"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="-1091.57" y1="465.68" x2="-1090.57" y2="465.68" gradientTransform="translate(64828.41 27682.99) scale(59.39 -59.39)" xlink:href="#linear-gradient"/>
+    <mask id="mask-1" x="-24.5" y="-28.78" width="109.52" height="109.08" maskUnits="userSpaceOnUse">
+      <rect class="cls-4" x="-9.36" y="-12.87" width="79.24" height="77.25" transform="translate(-9.36 22.71) rotate(-36)"/>
+    </mask>
+    <clipPath id="clippath-3">
+      <rect class="cls-2" width="60.52" height="51.52"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <path class="cls-2" d="M39.82,17.61l-4.37.55c-.51.06-.87.53-.81,1.04.02.2.12.4.26.54l.96.96-4.05,4.22c-.17.18-.44.19-.62.04l-3.77-2.99c-.39-.31-.96-.26-1.28.12l-6.07,7.06c-.33.39-.29.98.1,1.31.02.01.03.03.05.04l.34.26c.4-1.21,1.5-2.04,2.78-2.1.28,0,.55.04.82.13l2.93-3.27c.17-.18.45-.21.64-.06l3.5,2.83c.38.3.91.27,1.25-.07l5.41-5.5.84.84c.37.36.95.36,1.32,0,.15-.14.24-.34.26-.54l.55-4.37c.07-.51-.29-.97-.8-1.04-.04,0-.08,0-.12,0s-.08,0-.12,0"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="-1061.33" y1="475.27" x2="-1060.33" y2="475.27" gradientTransform="translate(22326.52 10013.14) scale(21.02 -21.02)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f36e35"/>
+      <stop offset=".12" stop-color="#f36e35"/>
+      <stop offset=".49" stop-color="#aa563d"/>
+      <stop offset=".77" stop-color="#784543"/>
+      <stop offset=".91" stop-color="#653f46"/>
+      <stop offset="1" stop-color="#653f46"/>
+    </linearGradient>
+  </defs>
+  <g class="cls-14">
+    <g class="cls-1">
+      <g class="cls-9">
+        <g class="cls-10">
+          <path class="cls-6" d="M30.26,50.52c11.74,0,21.26-9.52,21.26-21.26S42,8,30.26,8,9,17.52,9,29.26s9.52,21.26,21.26,21.26"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="cls-14">
+    <g class="cls-13">
+      <g class="cls-15">
+        <g class="cls-12">
+          <circle class="cls-7" cx="30.26" cy="29.26" r="20.76"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <path class="cls-8" d="M41.27,36.38c-.24-.6-.73-1.06-1.35-1.27l-1.26-.42c-.11-.04-.17-.17-.13-.28.01-.04.04-.08.08-.1.62-.55.98-1.35.96-2.18.11-1.33-.87-2.51-2.21-2.64-1.34.13-2.32,1.31-2.21,2.64-.01.83.34,1.63.96,2.18.1.07.12.21.05.31-.03.03-.06.06-.1.07l-1.26.42c-.47.16-.88.47-1.15.89l.22.07c.82.27,1.51.82,1.95,1.56h5.31c.24,0,.44-.2.44-.44,0-.06-.01-.11-.03-.16l-.27-.66ZM24.89,37.63c.44-.74,1.13-1.29,1.95-1.56l.22-.07c-.27-.42-.67-.74-1.15-.89l-1.26-.42c-.11-.04-.17-.17-.13-.28.01-.04.04-.08.07-.1.63-.55.98-1.35.96-2.18.11-1.33-.87-2.51-2.21-2.64-1.34.13-2.32,1.31-2.21,2.64-.02.83.34,1.63.96,2.18.1.07.12.21.05.31-.03.03-.06.06-.1.07l-1.26.42c-.61.21-1.1.67-1.35,1.27l-.26.66c-.09.22.02.48.25.57.05.02.11.03.16.03h5.31ZM35.34,38.46c-.31-.77-.94-1.36-1.72-1.62l-1.6-.53c-.15-.05-.23-.21-.18-.36.02-.05.05-.1.1-.13.8-.7,1.25-1.72,1.22-2.78,0-1.86-1.26-3.37-2.82-3.37s-2.81,1.51-2.81,3.37c-.02,1.06.42,2.08,1.22,2.78.12.09.15.27.05.39-.03.05-.08.08-.13.1l-1.6.53c-.78.26-1.42.85-1.72,1.62l-.33.83c-.12.29.02.61.31.73.07.03.14.04.21.04h9.6c.31,0,.56-.25.56-.56,0-.07-.01-.14-.04-.21l-.33-.83Z"/>
+  <g class="cls-11">
+    <rect class="cls-5" x="19.74" y="17.6" width="21.19" height="13.15"/>
+  </g>
+</svg>

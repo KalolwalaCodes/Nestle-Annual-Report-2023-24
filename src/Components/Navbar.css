@@ -1,0 +1,314 @@
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    align-items: center;
+    padding: 0 2%;
+    top: 0;
+    width: 100%;
+    position: sticky;
+    height: 12vh;
+    background-color: white;
+    z-index: 113;
+    overflow-x: hidden; /* Added this line */
+}
+.heading-wrapper-navbar {
+    font-size: 20px;
+    background: linear-gradient(45deg, rgb(243 110 54), rgb(84, 44, 26));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+  }
+  
+.annual-report-text{
+    font-weight: 700;
+    text-align: center;
+}
+.navbar h4 {
+    color: black;
+}
+
+.brand-logo {
+    width: 16%;
+}
+.nestle-logo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.brand-logo img {
+    width: 100%;
+}
+
+#nav-container {
+    position: absolute;
+    right: 5%;
+}
+
+.download-rep-btn {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.download-rep-btn div {
+    width: 55%;
+    justify-content: center;
+}
+
+.download-rep-btn a {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 6px 9px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.download-rep-btn a:hover {
+    background-color: #0056b3;
+}
+
+.download-rep-btn img {
+    width: 16%;
+    margin-left: 25px;
+    transition: transform 0.3s;
+}
+
+.download-rep-btn a:hover img {
+    transform: translateX(5px);
+}
+
+#nav-toggle {
+    /* background-color:#fff; */
+    border-radius: 100%;
+    display: block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transform: rotate(0deg);
+    z-index: 116; /* Ensure the toggle button is above the overlay */
+    position: relative; /* Ensure z-index applies */
+}
+
+#nav-toggle span {
+    background-color: #000000;
+    width: 70%;
+    height: 4px;
+    border-radius: 1px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: '';
+    transition: .5s ease-in-out;
+}
+
+#nav-toggle span:nth-child(1) {
+    top: 12px;
+    transform-origin: left center;
+}
+
+#nav-toggle span:nth-child(2) {
+    top: 20px;
+    transform-origin: left center;
+}
+
+#nav-toggle span:nth-child(3) {
+    top: 28px;
+    transform-origin: left center;
+}
+
+#nav-toggle.open span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 8px;
+    left: 10px;
+}
+
+#nav-toggle.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+}
+
+#nav-toggle.open span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 28px;
+    left: 10px;
+}
+
+#nav-overlay {
+    position: fixed; /* Changed to fixed */
+    top: 0; /* Adjusted to cover the entire screen */
+    left: 100%; /* Adjusted to cover the entire screen */
+    z-index: 114;
+    background: linear-gradient(to bottom, rgb(246, 210, 194) 10%, rgb(249, 201, 181) 30%, rgb(255, 255, 255)100%);
+    border-radius: 100%;
+    transition: 1s;
+    transform: scale3d(0, 0, 0);
+    width: 100vw; /* Adjusted to cover the entire screen */
+    height: 100vh; /* Adjusted to cover the entire screen */
+}
+
+#nav-overlay.open {
+    transform: scale3d(1, 1, 1);
+}
+
+#nav-fullscreen {
+    width: 100vw;
+    overflow-x: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition: ease-in-out 0.25s;
+    transition-delay: 0s;
+    visibility: hidden;
+    opacity: 0;
+    height: 100vh;
+    z-index: 115; /* Ensure the fullscreen menu is below the toggle button and overlay */
+}
+
+#nav-fullscreen ul {
+    list-style: none;
+    z-index: 2;
+    font-weight: 600;
+}
+
+#nav-fullscreen a {
+    color: #070707;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 2px 5px;
+    transition: background 0.4s ease-in-out;
+}
+#nav-fullscreen a:hover {
+    font-weight: 600;
+    background: rgb(245, 234, 222);
+}
+#nav-fullscreen .spec-a {
+    font-weight: bold;
+    color: rgb(207, 169, 242);
+    border-bottom: 2px solid #fff;
+    transition: all 0.1s ease-in-out;
+}
+#nav-fullscreen .spec-a:hover {
+    color: rgb(207, 169, 242);
+
+}
+
+#nav-fullscreen.open b {
+    color: rgb(4, 187, 4);
+    border-bottom: 2px solid #fff;
+}
+
+#nav-fullscreen.open {
+    visibility: visible;
+    font-size: 16px;
+    z-index: 115; /* Ensure the fullscreen is below the toggle button and overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the menu items */
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+    transition-delay: 0.25s;
+}
+
+
+
+.nav-menu-wrap {
+    display: flex;
+    margin: auto;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.nav-menu-dynamic-img-container {
+    width: 400px;
+    height: 400px;
+}
+
+.nav-menu-dynamic-img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 850px) {
+    .brand-logo {
+        width: 40%;
+    }
+}
+
+@media (max-width: 500px) {
+    .brand-logo {
+        width: 60%;
+    }
+    
+    .brand-logo img {
+        width: 100%;
+    }
+    
+    .navbar {
+        padding: 0 5%;
+        /* position: fixed; */
+    }
+    
+    #nav-fullscreen.open {
+        font-size: 16px;
+    }
+    
+    #nav-overlay {
+        padding-top: 15%;
+        width: 90vw;
+        height: 90vw;
+        /* color: #fff;
+        background-color: #0e4d7f; */
+    }
+    
+    .nav-menu-wrap {
+        display: block;
+        margin-top: 20%;
+    }
+    
+    /* #nav-fullscreen a {
+        color: #fff;
+    } */
+}
+.special-list{
+   cursor: pointer;
+}
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu > li {
+    /* margin-bottom: 10px; */
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden; /* Ensure the height animation works smoothly */
+}
+
+.dropdown-menu > li {
+    margin-bottom: 5px;
+}
+
+.dropdown-menu > li > a {
+    text-decoration: none;
+    color: black; /* Adjust to your preferred color */
+}
+
+.dropdown-menu > li > a:hover {
+    text-decoration: underline; /* Optional: add underline on hover */
+}
+.special-list{
+    padding: 2px 5px;
+    color: #000000;
+}

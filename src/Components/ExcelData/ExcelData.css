@@ -1,0 +1,88 @@
+.table-container-main {
+    width: 100%;
+    background: rgba(171, 169, 169, 0.3);
+    padding: 2%;
+    box-sizing: border-box;
+    color: black;
+  }
+  
+  .toggle-data-tab-hilights {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2%;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 2%;
+  }
+  
+  .toggle-btn-tab {
+    padding: 4px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    background: #46beb5;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .toggle-btn-tab:hover,.toggle-btn-tab.active {
+    background: #399f9b;
+  }
+  
+  .table-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: auto;
+    /* margin-top: 2%; */
+  }
+  
+  .table-heading-year,.table-row {
+    display: flex !important;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+  .table-row :nth-child(1) ,.data-head:first-child{
+    width: 250px;
+   text-align: center;
+  }
+  .data-cell ,.data-head{
+   width: 120px;
+   padding: 5px;
+    font-size: 16px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    text-align: center;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .data-cell:first-child ,.data-head:first-child {
+    font-weight: bold;
+    text-align: left;
+    background: #f0f0f0;
+  }
+  
+  @media (max-width: 768px) {
+    .data-head, .data-cell {
+      font-size: 14px;
+      padding: 5px 8px;
+    }
+  
+    .toggle-btn-tab {
+      padding: 5px 15px;
+      font-size: 16px;
+    }
+  }
+  @media screen and (max-width:1000px) {
+    .table-heading-year, .table-row{
+      flex-direction: column !important;
+    }
+    .table-content{
+      flex-direction: row;
+    }
+  }
