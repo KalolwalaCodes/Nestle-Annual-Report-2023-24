@@ -33,6 +33,7 @@ body {
     width: 16%;
 }
 .nestle-logo{
+    width: 90px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
